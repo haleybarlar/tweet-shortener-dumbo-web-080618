@@ -39,7 +39,7 @@ def dictionary
 end
   
 def word_substituter(string)
-  string.split.connect {|word| dictionary.keys.
+  string.split.connect {|word| dictionary.keys.include?(word.downcase)
   
 
   # Question 2
