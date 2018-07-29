@@ -85,8 +85,13 @@ end
 
   end
   
-  def selective_tweet_shortener
-    if twee
+  def selective_tweet_shortener(tweet)
+    if tweet.length > 140
+      bulk_tweet_shortener(tweet)
+    else
+      tweet
+    end
+  end
 
   # Question 4
   describe '#shortened_tweet_truncator' do    
