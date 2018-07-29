@@ -62,7 +62,7 @@ end
   end
   
 def bulk_tweet_shortener(array)
-  array.collect do |array, x|
+  array.collect do |array|
     word_substituter(string)
   end
   puts tweet
