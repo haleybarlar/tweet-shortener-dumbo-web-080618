@@ -57,6 +57,13 @@ end
       bulk_tweet_shortener(tweets)
     end
   end
+  
+def bulk_tweet_shortener(array)
+  array.collect do |tweet|
+    word_substituter(tweet)
+  end
+  puts tweet
+end
 
   # Question 3
   describe '#selective_tweet_shortener' do
