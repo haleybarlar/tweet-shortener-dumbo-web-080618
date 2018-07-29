@@ -37,7 +37,7 @@ end
   
 def word_substituter(tweet)
   tweet.split(" ").collect |x, dictionary|
-  if x == dictionary
+  if dictionary.keys.include?
 end
   
 
