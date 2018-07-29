@@ -39,7 +39,7 @@ def dictionary
 end
   
 def word_substituter(string)
-  string.split.connect {|
+  string.split.connect {|word| dictionary.keys.
   
 
   # Question 2
