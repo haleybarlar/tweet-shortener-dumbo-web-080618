@@ -39,7 +39,6 @@ def word_substituter(tweet)
   tweet.split(" ").collect |word|
   if dictionary.keys.include?(word.downcase)
     word = dictionary[word.downcase]
-    
   else
     word
   end.join
