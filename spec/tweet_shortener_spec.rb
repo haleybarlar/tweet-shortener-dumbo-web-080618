@@ -34,12 +34,10 @@ def dictionary
     "and" => "&"
   }
 end
-
-  
   
 def word_substituter(tweet)
-  tweet.split(" ").collect |x|
-  if 
+  tweet.split(" ").collect |x, dictionary|
+  if x == dictionary
 end
   
 
