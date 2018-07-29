@@ -84,6 +84,9 @@ end
     end
 
   end
+  
+  def selective_tweet_shortener
+    if twee
 
   # Question 4
   describe '#shortened_tweet_truncator' do    
