@@ -39,7 +39,14 @@ def dictionary
 end
   
 def word_substituter(string)
-  string.split.connect {|word| dictionary.keys.include?(word.downcase)
+  string.split(" ").collect do |word|
+  if dictionary.keys.include?(word.downcase)
+    word = dictionary[word.downcase]
+  else
+    word
+  end
+  end.join(" ")
+end
   
 
   # Question 2
