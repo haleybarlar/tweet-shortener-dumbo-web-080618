@@ -39,7 +39,7 @@ end
   
 def word_substituter(tweet)
   tweet.split(" ").collect |x|
-  
+  if 
 end
   
 
