@@ -24,7 +24,7 @@ describe 'tweet shortener' do
   end
 
 def dictionary
-  dictionary = {
+  words = {
     "hello" => "hi",
     "to, two, too" => "2",
     "for, four" => "4",
